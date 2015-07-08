@@ -1,0 +1,14 @@
+﻿<Page
+    x:Class="WinStoreDrawTools.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WinStoreDrawTools"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:Name="inkPanel" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Canvas x:Name="InkCanvas" HorizontalAlignment="Left" Height="651" Margin="179,107,0,0" VerticalAlignment="Top" Width="1000" Background="White" PointerReleased="InkCanvas_PointerReleased"/>
+
+    </Grid>
+</Page>
